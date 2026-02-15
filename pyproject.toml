@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "axio-framework"
+version = "1.0.0"
+authors = [
+  { name="USER", email="user@example.com" },
+]
+description = "AI-native full-stack framework with compiler-driven code generation"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "click",
+    "asyncio",
+    "pydantic",
+    "anthropic",
+    "fastapi",
+    "uvicorn",
+    "asyncpg",
+    "neo4j",
+    "redis",
+    "pyyaml",
+    "numpy",
+    "opentelemetry-api",
+    "aiohttp",
+]
+
+[project.scripts]
+axio = "cli:cli"
+axiom = "cli:cli"
+
+[tool.setuptools]
+py-modules = ["agent_runtime", "cli", "compiler", "mcp_integration", "memory_engine", "react_generator", "backend_generator"]
