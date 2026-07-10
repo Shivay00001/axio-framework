@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    ports:
+      - "8026:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
