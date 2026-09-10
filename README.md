@@ -65,3 +65,8 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENS
 ---
 
 <p align="center">Built with ❤️ for the AI Engineer Era</p>
+
+
+## Prerequisites
+- Required environment and dependencies
+
