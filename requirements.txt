@@ -1,0 +1,13 @@
+# From pyproject.toml (asyncio is stdlib - excluded)
+click
+pydantic
+anthropic
+fastapi
+uvicorn
+asyncpg
+neo4j
+redis
+pyyaml
+numpy
+opentelemetry-api
+aiohttp

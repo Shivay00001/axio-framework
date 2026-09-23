@@ -5,4 +5,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 ENV PYTHONUNBUFFERED=1
 EXPOSE 8000
-CMD ["python", "main.py"]
+CMD ["python", "cli.py", "--help"]
