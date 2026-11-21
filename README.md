@@ -1,5 +1,7 @@
 # ⚡ Axio Framework
 
+Built by [VisionQuantech](https://visionquantech.com) — AI agents, apps & tools for small businesses.
+
 **The AI-Native Full-Stack Engine**
 
 [![PyPI version](https://img.shields.io/pypi/v/axio-framework.svg)](https://pypi.org/project/axio-framework/)
@@ -69,4 +71,3 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENS
 
 ## Prerequisites
 - Required environment and dependencies
-
